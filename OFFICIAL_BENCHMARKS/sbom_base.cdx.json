@@ -1,0 +1,270 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:57f40ba2-addd-581e-85d6-0c830fd4fb42",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T15:26:39Z",
+    "component": {
+      "type": "application",
+      "name": "OPTICUT",
+      "version": "5901a79b6c5a",
+      "bom-ref": "pkg:generic/anticloud/OPTICUT@5901a79b6c5a",
+      "purl": "pkg:generic/anticloud/OPTICUT@5901a79b6c5a",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "5901a79b6c5a74d8b9c356ee2916736567308108"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/JeroenGar/sparrow.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "name",
+      "version": "sparrow",
+      "purl": "pkg:cargo/name@sparrow",
+      "bom-ref": "cargo/name@sparrow"
+    },
+    {
+      "type": "library",
+      "name": "version",
+      "version": "0.3.0",
+      "purl": "pkg:cargo/version@0.3.0",
+      "bom-ref": "cargo/version@0.3.0"
+    },
+    {
+      "type": "library",
+      "name": "edition",
+      "version": "2024",
+      "purl": "pkg:cargo/edition@2024",
+      "bom-ref": "cargo/edition@2024"
+    },
+    {
+      "type": "library",
+      "name": "rust-version",
+      "version": "1.90",
+      "purl": "pkg:cargo/rust-version@1.90",
+      "bom-ref": "cargo/rust-version@1.90"
+    },
+    {
+      "type": "library",
+      "name": "default-run",
+      "version": "sparrow",
+      "purl": "pkg:cargo/default-run@sparrow",
+      "bom-ref": "cargo/default-run@sparrow"
+    },
+    {
+      "type": "library",
+      "name": "description",
+      "version": "State-of-the-art nesting heuristic for 2D irregular strip packing problems",
+      "purl": "pkg:cargo/description@State-of-the-art nesting heuristic for 2D irregular strip packing problems",
+      "bom-ref": "cargo/description@State-of-the-art nesting heuristic for 2D irregular strip packing problems"
+    },
+    {
+      "type": "library",
+      "name": "path",
+      "version": "src/main.rs",
+      "purl": "pkg:cargo/path@src/main.rs",
+      "bom-ref": "cargo/path@src/main.rs"
+    },
+    {
+      "type": "library",
+      "name": "jagua-rs",
+      "version": "=1.0.0",
+      "purl": "pkg:cargo/jagua-rs@=1.0.0",
+      "bom-ref": "cargo/jagua-rs@=1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "rand",
+      "version": "0.10",
+      "purl": "pkg:cargo/rand@0.10",
+      "bom-ref": "cargo/rand@0.10"
+    },
+    {
+      "type": "library",
+      "name": "rand_distr",
+      "version": "0.6",
+      "purl": "pkg:cargo/rand_distr@0.6",
+      "bom-ref": "cargo/rand_distr@0.6"
+    },
+    {
+      "type": "library",
+      "name": "svg",
+      "version": "0.18",
+      "purl": "pkg:cargo/svg@0.18",
+      "bom-ref": "cargo/svg@0.18"
+    },
+    {
+      "type": "library",
+      "name": "itertools",
+      "version": "0.15",
+      "purl": "pkg:cargo/itertools@0.15",
+      "bom-ref": "cargo/itertools@0.15"
+    },
+    {
+      "type": "library",
+      "name": "log",
+      "version": "0.4",
+      "purl": "pkg:cargo/log@0.4",
+      "bom-ref": "cargo/log@0.4"
+    },
+    {
+      "type": "library",
+      "name": "fern",
+      "version": "0.7",
+      "purl": "pkg:cargo/fern@0.7",
+      "bom-ref": "cargo/fern@0.7"
+    },
+    {
+      "type": "library",
+      "name": "serde",
+      "version": "1.0",
+      "purl": "pkg:cargo/serde@1.0",
+      "bom-ref": "cargo/serde@1.0"
+    },
+    {
+      "type": "library",
+      "name": "serde_json",
+      "version": "1.0",
+      "purl": "pkg:cargo/serde_json@1.0",
+      "bom-ref": "cargo/serde_json@1.0"
+    },
+    {
+      "type": "library",
+      "name": "tap",
+      "version": "1.0",
+      "purl": "pkg:cargo/tap@1.0",
+      "bom-ref": "cargo/tap@1.0"
+    },
+    {
+      "type": "library",
+      "name": "slotmap",
+      "version": "1.1",
+      "purl": "pkg:cargo/slotmap@1.1",
+      "bom-ref": "cargo/slotmap@1.1"
+    },
+    {
+      "type": "library",
+      "name": "float-cmp",
+      "version": "0.10",
+      "purl": "pkg:cargo/float-cmp@0.10",
+      "bom-ref": "cargo/float-cmp@0.10"
+    },
+    {
+      "type": "library",
+      "name": "ordered-float",
+      "version": "5.5",
+      "purl": "pkg:cargo/ordered-float@5.5",
+      "bom-ref": "cargo/ordered-float@5.5"
+    },
+    {
+      "type": "library",
+      "name": "rayon",
+      "version": "1.12",
+      "purl": "pkg:cargo/rayon@1.12",
+      "bom-ref": "cargo/rayon@1.12"
+    },
+    {
+      "type": "library",
+      "name": "numfmt",
+      "version": "1.2",
+      "purl": "pkg:cargo/numfmt@1.2",
+      "bom-ref": "cargo/numfmt@1.2"
+    },
+    {
+      "type": "library",
+      "name": "num_cpus",
+      "version": "1.17",
+      "purl": "pkg:cargo/num_cpus@1.17",
+      "bom-ref": "cargo/num_cpus@1.17"
+    },
+    {
+      "type": "library",
+      "name": "jiff",
+      "version": "0.2",
+      "purl": "pkg:cargo/jiff@0.2",
+      "bom-ref": "cargo/jiff@0.2"
+    },
+    {
+      "type": "library",
+      "name": "test-case",
+      "version": "3.3",
+      "purl": "pkg:cargo/test-case@3.3",
+      "bom-ref": "cargo/test-case@3.3"
+    },
+    {
+      "type": "library",
+      "name": "clap",
+      "version": "4.6",
+      "purl": "pkg:cargo/clap@4.6",
+      "bom-ref": "cargo/clap@4.6"
+    },
+    {
+      "type": "library",
+      "name": "anyhow",
+      "version": "1.0",
+      "purl": "pkg:cargo/anyhow@1.0",
+      "bom-ref": "cargo/anyhow@1.0"
+    },
+    {
+      "type": "library",
+      "name": "crossterm",
+      "version": "0.29",
+      "purl": "pkg:cargo/crossterm@0.29",
+      "bom-ref": "cargo/crossterm@0.29"
+    },
+    {
+      "type": "library",
+      "name": "ratatui",
+      "version": "0.30",
+      "purl": "pkg:cargo/ratatui@0.30",
+      "bom-ref": "cargo/ratatui@0.30"
+    },
+    {
+      "type": "library",
+      "name": "getrandom",
+      "version": "0.4",
+      "purl": "pkg:cargo/getrandom@0.4",
+      "bom-ref": "cargo/getrandom@0.4"
+    },
+    {
+      "type": "library",
+      "name": "ctrlc",
+      "version": "3.5",
+      "purl": "pkg:cargo/ctrlc@3.5",
+      "bom-ref": "cargo/ctrlc@3.5"
+    },
+    {
+      "type": "library",
+      "name": "inherits",
+      "version": "release",
+      "purl": "pkg:cargo/inherits@release",
+      "bom-ref": "cargo/inherits@release"
+    },
+    {
+      "type": "library",
+      "name": "lto",
+      "version": "fat",
+      "purl": "pkg:cargo/lto@fat",
+      "bom-ref": "cargo/lto@fat"
+    }
+  ]
+}
